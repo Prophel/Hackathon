@@ -1,0 +1,156 @@
+*{
+	font-family:verdana;
+}
+
+a{
+	text-decoration:none;
+	color: #99ffff;
+	font-size:20px;
+}
+
+.container{
+	margin:0;
+}
+
+.top{
+	background-color: rgb(100,100,100);
+	color:#99ffff;
+	margin:0;
+}
+
+.header h1{
+	display:inline-block;
+	padding:20px;
+	width:41%;
+	box-sizing: border-box;
+}
+
+.header .time{
+	float:right;
+
+}
+
+.nav{
+	background-color: rgb(100,100,100);
+	text-align:center;
+	padding:10px;
+	position:sticky;
+	top:0;
+}
+
+.nav a{
+	width:25%;
+	padding:10px 20px;
+	margin:-3px;
+}
+
+.nav a:hover{
+	background-color:;
+	color:white;
+}
+
+.waiting{
+	border-collapse: collapse;
+	background-color: #99ffff;
+}
+
+.waiting-1{
+	width:100%;
+	border: solid 5px black;
+	box-sizing: border-box;
+	padding:10px 0;
+	font-size:40px;
+	color:rgba(30,45,75,0.74);
+}
+
+.waiting-2{
+	text-align:center;
+	width:100%;
+	border-collapse: collapse;
+	font-weight: bolder;
+}
+.waiting .waiting-2 tr:nth-child(even){
+	background-color:#00ffff;
+}
+.waiting-2 td{
+	padding:20px;
+	border:solid black;
+	border-width:1px 2px;
+}
+
+
+.leave, .left{
+	border-collapse: collapse;
+	background-color: #99ffff;
+	width:50%;
+}
+
+.leave-1, .left-1{
+	width: 100%;
+	border: solid 5px black;
+	box-sizing: border-box;
+	padding:10px 0;
+	font-size:40px;
+	color:rgba(30,45,75,0.74);
+}
+
+.leave-2, .left-2{
+	text-align:center;
+	width:100%;
+	border-collapse: collapse;
+	border: solid 5px black;
+	font-weight: bolder;
+}
+
+.left-2 tr:nth-child(even),.leave-2 tr:nth-child(even){
+	background-color:#00ffff;
+}
+
+.leave-2 td, .left-2 td{
+	padding:20px;
+	border:solid 2px black;
+
+}
+
+.leave{
+	display: inline-block;
+}
+
+.left{
+	float:right;
+}
+
+
+
+}
+/*
+.body{
+	background-color:#99ffff;
+	padding:50px;
+}
+
+.students{
+	border-collapse: collapse;
+	width:70%;
+	margin:auto;
+	height:500px;
+
+}
+
+.students th, td{
+	border:solid 2px black;
+	padding:10px;
+}
+
+.students th{
+	color:rgba(30,45,75,0.74);
+
+}
+
+.students td{
+	background-color: rgba(30,45,75,0.74);
+	color:#99ffff;
+}
+*/
+
+
